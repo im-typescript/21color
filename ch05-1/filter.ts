@@ -6,3 +6,4 @@ export const filter = <T>(array: T[], callback: (value: T, index?: number) => bo
 	}
 	return result;
 };
+ 

@@ -4,4 +4,5 @@ export const map = <T, Q>(array: T[], callback: (value: T, index?: number) => Q)
     result = [...result, callback(value, index)]
   })
   return result
-} 
+}
+
